@@ -1,13 +1,52 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>MyApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .tarjeta {
+            width: 800px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 50px auto;
+        }
+        .foto {
+            text-align: center;
+        }
+        .foto img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .datos-contacto {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-  <app-root></app-root>
+
+<div class="tarjeta">
+    <div class="foto">
+        <img src="flunderspez.png" alt="Foto">
+    </div>
+    <div class="datos-contacto">
+        <h2>Flunde Coral</h2>
+        <p>Flunder / Manager </p>
+        <p>Correo electrónico: Flunder02@gmail.com</p>
+        <p>Teléfono: 0912738124</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/flunder.ec" target="_blank">Flunder Coral</a></p>
+    </div>
+</div>
+
 </body>
 </html>
